@@ -29,20 +29,52 @@
 //     console.log("It's normal");
 // }
 
-let age=prompt("Enter your age: ");
-if(age>=0 && age<=12)
-{
-    console.log("You are child");
+//AGE 
+// let age=prompt("Enter your age: ");
+// if(age>=0 && age<=12)
+// {
+//     console.log("You are child");
+// }
+// else if(age>=13 && age<=19)
+// {
+//     console.log("You are teenager");
+// }
+// else if(age>=20 && age<=59)
+// {
+//     console.log("You are adult");
+// }
+// else
+// {
+//     console.log("you are senior citizen");
+// }
+
+//SIMPLE CALCULATER USING IF-ELSE-IF
+let a=parseFloat(prompt("Enter the first number: "));
+let b=parseFloat(prompt("Enter the Second number: "));
+let operator=prompt("Enter the operators +,-,*,/");
+if(operator==='+'){
+   let sum=a+b;
+    console.log("Sum is: ",sum);
 }
-else if(age>=13 && age<=19)
-{
-    console.log("You are teenager");
+else if(operator==='-'){
+    let sub=a-b;
+    console.log("Subtraction is: ",sub);
 }
-else if(age>=20 && age<=59)
-{
-    console.log("You are adult");
+else if(operator==='*'){
+    let  mul=a*b;
+    console.log("Multplication is: ",mul);
 }
-else
-{
-    console.log("you are senior citizen");
+else if(operator==='/'){
+    if(b!==0)
+    {
+        let div=a/b;
+        console.log("Division is: ",div);
+    }
+    else
+    {
+        console.log("We can not divide by 0");
+    }    
+}
+else{
+    console.log("!!! You have entered wrong input !!!");
 }
