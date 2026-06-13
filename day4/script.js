@@ -40,20 +40,30 @@
 //     console.log(num+"X"+i+"="+num*i);
 // }
 
-//pattern
+// pattern
 // for(let i=0;i<=5;i++){
-//     for(let j=1;j<=i;j++){
-//         console.log("*");
+//     let row = "";
+//      for(let j=1;j<=i;j++){
+//     row += "*";
 //     }
-// }
+//     console.log(row);
+//  }
 
 //
-let num=prompt("Enter the number");
-let i;
-for(let i=0;i<=num;i++){
-    let pattern="";
-    for(let j=1;j<=i;j++){
-        pattern=pattern+i;
+// let num=prompt("Enter the number");
+// let i;
+// for(let i=0;i<=num;i++){
+//     let pattern="";
+//     for(let j=1;j<=i;j++){
+//         pattern=pattern+i;
+//     }
+//     console.log(pattern)
+// }
+
+for (let i = 5; i >= 1; i--) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+        row += "*";
     }
-    console.log(pattern)
+    console.log(row);
 }
