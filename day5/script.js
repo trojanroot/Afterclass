@@ -76,9 +76,9 @@ const multiplication=(a,b)=>{
     mul=a*b;
     console.log("multiplication of two number  is ",mul);
 }
-
-
-
+let a=prompt("Ente the value of a");
+let b=prompt("Enter the value of b");
+multiplication(a,b);
 
 
 //q6
