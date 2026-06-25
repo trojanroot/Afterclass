@@ -78,7 +78,7 @@ const name=()=>{
     firstName[4]="shrestha";
     console.log("After Change "+ firstName);
 }
-name();
+// name();
 
 const fruit=()=>{
     let fruitName=["Apple","Orange","Mango","peas"];
@@ -88,4 +88,98 @@ const fruit=()=>{
     fruitName.pop();
     console.log("After POP "+fruitName);
 }
-fruit();
+// fruit();
+
+
+//Homework
+//1
+const showFood=()=>{
+    let food=["Mo:MO","chowmein","Burger"];
+    console.log(food);
+}
+// showFood();
+
+//2
+const showCountries=()=>{
+    let country=["USA","UK","Australia","Argentina","Spain"];
+    console.log(country);
+}
+// showCountries();
+
+//3
+const showFirstColor=()=>{
+    let colors=["Red","Yellow","Blue"];
+    console.log("First color is "+colors[0]);
+}
+// showFirstColor();
+
+//4
+const showLastSubject=()=>{
+    let subjects=["English","Ecomonic","Account","Computer"];
+    console.log("Last Subject is "+subjects[3]);
+}
+// showLastSubject();
+
+//5
+const changeColor=()=>{
+    let color=["Red","Yellow","Blue","Green"];
+    console.log("Name of Colors before change "+color);
+    color[1]="Pink";
+    console.log("Name of Colors after change "+color);
+}
+// changeColor();
+
+//6
+const changeFriend=()=>{
+    let friends=["Kashib","Hermit","Sushan","Sulav"];
+    console.log("before replace "+friends);
+    friends[3]="Aayush";
+    console.log("After Replace "+friends);
+}
+changeFriend();
+
+//7
+const countFoods=()=>{
+    let food=["Mo:Mo","Chowmein","burger","sandwich","Pizza"];
+    console.log("Total Foods are: "+food.length);
+}
+countFoods();
+
+//8
+const countFriends=()=>{
+    let friends=["Kashib","Hermit","Sushan","Sulav","Aayush","Tufan","Arpan"];
+    console.log("Total Friends are "+friends.length);
+}
+countFriends();
+
+//9
+const addCountry=()=>{
+    let country=["Nepal","UK","Australia","Argentina","USA"];
+    country.push("Spain","UAE");
+    console.log("Country after Adding "+country);
+}
+addCountry();
+
+//10
+const addColoor=()=>{
+    let color=["Red","Yellow","Blue","Green","Black"];
+    color.push("White","Pink","Brown");
+    console.log("Colors after adding "+color);
+}
+addColoor();
+
+//11
+const removeCountry=()=>{
+    let country=["Nepal","UK","Australia","Argentina","USA","Spain","UAE"];
+    country.pop();
+    console.log("after Removing last country "+country);
+}
+removeCountry();
+
+//12
+const removeGame=()=>{
+    let game=["RDR2","GTA5","FC26","PUBG","God of War","COC"];
+    game.pop();
+    console.log("after removing last game "+game);
+}
+removeGame();
