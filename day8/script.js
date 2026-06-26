@@ -72,4 +72,116 @@ const multiArray=()=>{
     console.log(array);
 }
 
-multiArray();
+// multiArray();
+
+
+
+//homework
+//q1
+const showSubject=()=>{
+    let subject=["math","science","English","Economic","account"];
+    console.log("Subjects are: "+subject);
+}
+// showSubject();
+
+//q2
+const manageCountries=()=>{
+    let countries=["USA","UK","UAE","spain","Japan"];
+    console.log("countries are "+countries);
+    countries.pop();
+    console.log("countries after pop "+countries);
+    countries.push("Brazil");
+    console.log("countries after push "+countries);
+    countries.shift();
+    console.log("countries after shift "+countries);
+    countries.unshift("argentina");
+    console.log("countries after unshift "+countries);
+}
+// manageCountries();
+
+//q3
+const printFriends=()=>{
+    let friends=["Hermit","Kashib","sushan","aasutosh","pratik"];
+    for(i=0;i<friends.length;i++){
+        console.log(friends[i]);
+    }
+}
+// printFriends();
+
+//q4
+const totalMarks=()=>{
+    let marks=[68,54,66,74,69,67];
+    sum=0;
+    for(i=0;i<marks.length;i++){
+        sum+=marks[i];
+    }
+    console.log("sum is ",sum);
+}
+// totalMarks();
+
+//q5
+const familyMembers=()=>{
+    let family=[
+        {
+            name:"Mahendra Thapa",
+            age:44,
+            address:"Dhankuta",
+        },
+        {
+            name:"Naina kala Thapa",
+            age:43,
+            address:"Dhankuta",
+        },
+        {
+            name:"Aryan Thapa",
+            age:19,
+            address:"Dhankuta",
+        },
+        {
+            name:"Denisha Thapa",
+            age:14,
+            address:"Dhankuta",
+        },
+        {
+            name:"Bharat Thapa",
+            age:75,
+            address:"Dhankuta",
+        }
+    ]
+    console.log(family);
+}
+// familyMembers();
+
+//q6
+const studentDetail=()=>{
+    let student=[
+        {
+            name:"arpan",
+            age:19,
+            address:"kapan",
+        },
+        {
+            name:"sandesh",
+            age:19,
+            address:"kathmandu",
+        },
+        {
+            name:"rikki",
+            age:19,
+            address:"lalitpur",
+        },
+        {
+            name:"Hemit",
+            age:19,
+            address:"morang",
+        },
+        {
+            name:"Kashib",
+            age:19,
+            address:"nuwakot",
+        },
+
+    ]
+    console.log(student);
+}
+studentDetail();
